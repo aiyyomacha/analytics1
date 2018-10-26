@@ -36,3 +36,4 @@ x = c(0:10, 50:100)
 x
 #create value
 plot(1:10)
+source('test1.R')
