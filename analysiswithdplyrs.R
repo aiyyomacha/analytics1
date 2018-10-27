@@ -50,3 +50,4 @@ mtcars %>% group_by(am) %>% summarise(MeanMPG =mean(mpg))
 mtcars %>% group_by (am) %>% summarise(MeanMPG = mean(mpg), MaxHP = max(hp), MinWT = min(wt))
 mtcars %>% group_by(gear, cyl) %>% summarise(MeanMPG = mean(mpg))
 mtcars %>% group_by(am, vs) %>% summarise(MeanMPG = mean(mpg))
+

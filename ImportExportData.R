@@ -5,6 +5,7 @@ dir('/data2')
 list.files('/data')
 list.files('/data2')
 
+#We write these just for reference
 #Reading from a Flat file into a vector
 list.files('./data2')
 data = scan("./data2/hhe.txt", what = "character")
@@ -42,3 +43,4 @@ head(df_gsheet)
 #1st row contains Variable names
 
 library(xlsx)
+

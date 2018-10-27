@@ -77,3 +77,4 @@ pairs(mtcars[c('mpg', 'wt','hp')])
 
 boxplot(mtcars$mpg, col = 12:25)
 hist(mtcars$mpg, col = 13:20)
+
